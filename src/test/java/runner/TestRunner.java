@@ -5,8 +5,8 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = {"src/test/resources/faetureFiles/APIDemoTestFeature.feature"},
-        glue = {"step.definitions"},
+        features = {"src/test/resources/featureFiles"},
+        glue = {"steps.definitions"},
         monochrome = true,
         dryRun = false,
         plugin = {

@@ -1,4 +1,4 @@
-package step.definitions;
+package steps.definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,4 +15,5 @@ public class APIDemoTestFeature {
     public void statusCodeShouldBe(String respnseCode) {
         System.out.println(respnseCode);
     }
+
 }
